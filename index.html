@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Arthur Rondeau's profile</title>
+	<meta name="description" content="This is the profile of Arthur">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/e5676cc8ff.js" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		 window.onload = function ()
+        {
+            var imgs = [ <img id="image0" src="images/banner.png"/>, <img id="image1" src="images/PP.png"/>, <img id="image2" src="images/rugby.png"/>],
+                image = document.getElementById("image0","image1",),
+                index = 0;
+            function hop ()
+            {
+                image.src= imgs[(index++)%imgs.length];
+            };
+            cool = setInterval(hop,10000);
+            // pour arreter mettre clearInterval(cool); quelque part
+        };
+	</script>
+
+</head>
+
+	<body>
+		<div class="banner">
+			<div class="container">	
+				<h1>Discover me</h1>
+				<h2></h2>
+				<a href="https://arthurdeau.github.io/my-website/" class="btn-eq" target="_blank">Discover my website
+				</a>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="white-card" id="introduction">	
+				<h1>Hello, I'm Arthur ;)</h1>
+				<img src="images/PP.png" class="avatar" alt="Arthur Rondeau"> 
+				<div class="img-inline">
+					<p>Future changemaker, member of the NAVY Association, big fan of sports and more particularily rugby.<p>
+						<li><img src="images/ieseg.jpg" class="img-circle" alt="IESEG school of management"></li>
+						<li><img src="images/navy.jpg" class="img-circle" alt="NAVY association"></li>
+						<li><img src="images/rugby.png" id="rugby" alt="Rugby"></li>   
+				</div>
+			</div>
+			<div class="white-card">
+				<h2>Rugby</h2>
+
+				<p>
+				I participated in the national championship of rugby with my team where i had the number 7. 	
+				</p>
+			</div>
+			<div class="white-card">
+				<h2>Event</h2>
+				<p>
+				I joined the association of the navy to organise event for my school and to create a big network for myself later	
+				</p>
+			</div>
+			<div class="white-card">
+				<h2>Follow me</h2>
+
+					<ul class="horizontal-list">
+						<li>
+							<a href="https://www.instagram.com/arthur_rdoo/" target="_blank">
+								<i class="fab fa-instagram-square"></i>
+							</a>
+						</li>
+						<li> 
+							<a href="https://www.linkedin.com/in/arthur-rondeau-046a26222/" target="_blank">
+								<i class="fab fa-linkedin"></i>
+							</a>
+						</li>
+						<li> 
+							<a href="https://www.facebook.com/profile.php?id=100071467869915" target="_blank">
+								<i class="fab fa-facebook-square"></i>
+								</a>
+						</li>
+					</ul>	
+			</div>
+		</div>
+			
+		
+	</body>
+</html>

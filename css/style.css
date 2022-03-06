@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Roboto");
+
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/btn.css");
+@import url("components/social link.css");
+@import url("components/introduction.css");
+@import url("components/banner.css");
+
+
+
+body{
+	background: #fff;
+	color: rgb(50, 50, 50);
+	font-family: lora;
+	font-size: 16px;
+	margin: 0px;
+}
+
+h1, h2, h3 {
+	font-family-sans-serif: "Calibre", sans-serif;
+    font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+h1{
+	color: #343a40;
+	font-size: 23px;
+}
+
+h2 {
+	color: rgb(100, 100, 100);
+	font-family: courier; font-size: 24px;
+	font-weight: lighter;
+}
+
+a {
+	font-family-sans-serif: "Calibre", sans-serif;
+	text-decoration: none;
+	color: #17a2b8;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+a:hover {
+	color: #343a40;
+}
